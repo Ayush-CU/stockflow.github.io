@@ -328,7 +328,7 @@ a img.aligncenter {
   width: 100%;
   height: 100%;
   z-index: 100;
-  background-color: #0594a9;
+  background-color: #1005a9;
 }
 
 .loader-wrapper .text {
@@ -442,7 +442,7 @@ a img.aligncenter {
 }
 
 .top-navbar .navbar-expand-lg .navbar-nav{
-	background: #0594a9;
+	background: #2f10a1;
 	border-radius: 5px;
 }
 
@@ -759,7 +759,7 @@ a.bttn-new:focus {
 }
 
 .section.color1 {
-    background-color: #448AFF;
+    background-color: #44ffb1;
 }
 
 .first-section {
@@ -840,7 +840,7 @@ body.seo_version .btn-light.ban-btn{
 }
 
 .progress-bar-success{
-	background: #0594a9;
+	background: #079cb6;
 	box-shadow: none;
 }
 
@@ -863,7 +863,7 @@ body.seo_version .btn-light.ban-btn{
 
 .vission-and-mission .nav-pills > li > a.active {
     border: none;
-    background: #0594a9;
+    background: #053ea9;
     color: #ffffff;
 }
 
@@ -1016,7 +1016,7 @@ body.seo_version .btn-light.ban-btn{
 }
 
 .da-thumbs .pitem a div i {
-    background-color: #0594a9;
+    background-color: #0523a9;
     position: absolute;
     color: #ffffff;
     bottom: 0;
@@ -2260,7 +2260,7 @@ select.mobile-device {
 }
 
 .footer .widget-title h3 {
-    color: #0594a9;
+    color: #4c05a9;
     font-weight: 500;
     font-size: 21px;
     padding: 0;

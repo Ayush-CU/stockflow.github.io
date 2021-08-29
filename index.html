@@ -34,7 +34,40 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style>
+o.oblique {
+  font-style: oblique;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+</style>
 </head>
 <body class="seo_version">
 
@@ -63,26 +96,26 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-seo">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item active"><a class="nav-link" href="index.html">HOME</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Learn </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="terminology.html">Stock Terminology</a>
-								<a class="dropdown-item" href="stock.html">Stock Education</a>
-								<a class="dropdown-item" href="report.html">Reports</a>
-								<a class="dropdown-item" href="chart.html">Charts</a>
+								<a class="dropdown-item" href="terminology.html">STOCK TERMINOLOGY</a>
+								<a class="dropdown-item" href="stock.html">STOCK EDUCATION</a>
+								<a class="dropdown-item" href="report.html">REPORTS</a>
+								<a class="dropdown-item" href="chart.html">CHARTS</a>
 							</div>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Tips</a>
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">TIPS</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="chart.html">Charts & Graphs</a>
-								<a class="dropdown-item" href="#">Case Study</a>
-								<a class="dropdown-item" href="#">Investor's Ideas</a>
+								<a class="dropdown-item" href="chart.html">CHARTS & GRAPHS</a>
+								<a class="dropdown-item" href="#">CASE STUDY</a>
+								<a class="dropdown-item" href="#">INVESTOR'S IDEAS</a>
 							</div>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">SUPPORT</a></li>
 					</ul>
 				</div>
 			</div>
@@ -90,21 +123,22 @@
 	</header>
 	<!-- End header -->
 
-    <div id="about" class="section wb nopadtop">
-        <div class="container">
-            <div class="row">
-				<div class="col-md-6 m40">
-                    <div class="message-box">
-                        <h2>Welcome to StockFlow</h2>
-                        <p>Stock education is a must to become a professional in the stock market trading and investing. It requires learning strategies and tactics that enable you to seek growth. Stock market prediction is the act of trying to determine the future value of company stock or other financial instrument traded on an exchange, by using the features like the latest announcements about an organization, their quarterly revenue results, etc.
-		StockFlow platform can be proposed to provide a good learning environment for learners.</p>
-                        
+    
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 				
-                <div class="col-md-6">
-                    <div class="post-media wow fadeIn">
-                        <img src="images/about_01.jpg" alt="" class="img-fluid">
+
+<div class="container">
+  <img src="https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHN0b2NrJTIwbWFya2V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" class="img-fluid" alt="Notebook" style="width:500%;">
+  <div class="content">
+   <h1 color="white"><o class="oblique">Welcome to StockFlow!</o></h1>
+   <p>Stock education is a must to become a professional in the stock market trading and investing. It requires learning strategies and tactics that enable you to seek growth. Stock market prediction is the act of trying to determine the future value of company stock or other financial instrument traded on an exchange, by using the features like the latest announcements about an organization, their quarterly revenue results, etc.
+		StockFlow platform can be proposed to provide a good learning environment for learners.</p>
+  </div>
+</div>
+
+
+                
                     </div><!-- end media -->
                 </div><!-- end col -->
                 
@@ -118,8 +152,9 @@
 					<div class="tab-content">
 						<div class="tab-pane fade show active" id="tab_a">
 							<div class="box-inner-m">
-								<p>The purpose of the StockFlow is to automate the evaluate specific systems with the help of full-fledged integrated requirements, by filling their knowledge gap, so that their valuable time can be saved.
-								We will try to prepare a web app module using machine learning where a user can visit and see if what sites they predict to invest in, is correct or wrong as our web app will be using machine learning algorithms to predict whether the stock will grow or will fall based on recorded data. We will implement a mix of simple algorithms like averaging and linear regression, and then move on to LSTM for more robust and accurate predictions.</p>
+								<p>The purpose of the StockFlow is to automate and evaluate specific systems with the help of full-fledged integrated requirements.<br>
+							
+								This is a web app module where a user can choose and predict which sites to invest in.</p>
 								
 							</div>
 						</div>
@@ -133,8 +168,8 @@
 			<hr class="hr1">
 			
 			<div class="section-title text-center">               
-                <h3>Why Choose Us</h3>
-                <p class="lead">We offer unlimited solutions to all your business needs. in the installation package we prepare search engine optimization, social media support, we provide corporate identity and graphic design services.</p>
+                <h3><o class="oblique">WHY CHOOSE US?</o></h3>
+                <p class="lead">We offer unlimited solutions to all your business needs. In the installation package we prepare search engine optimization, social media support, we provide corporate identity and graphic design services.</p>
             </div><!-- end title -->
 			
 
@@ -143,7 +178,7 @@
         <div class="container-fluid">
 			<div class="container">
 				<div class="section-title text-center">
-					<h3>StockFlow Services</h3>
+					<h3><o class="oblique">StockFlow SERVICES</o></h3>
 					<p class="lead">We offer solutions to all your business needs.</p>
 				</div><!-- end title -->
 			</div>
@@ -152,9 +187,9 @@
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/seo_06.png" alt="" class="img-fluid img-rounded">
+								<img src="https://i.pinimg.com/originals/9b/ec/83/9bec831078051d4fc5f06e964da71760.gif" alt="" class="img-fluid img-rounded">
 							</div>
-							<h3>Charts & Reports</h3>
+							<h3><p class="oblique">CHARTS & REPORTS</o></h3>
 							<p>We tell our users who are eager to learn how stock market workshow and how to read charts and stock reports so that they can find it right to apply for a company stock or not.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
@@ -162,9 +197,9 @@
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/Book.png" alt="" class="img-fluid img-rounded">
+								<img src="https://cdn.dribbble.com/users/1304565/screenshots/2962779/materials-gifmaker.gif" alt="" class="img-fluid img-rounded">
 							</div>
-							<h3>Materials</h3>
+							<h3>MATERIALS</h3>
 							<p>We provide stock data and charts, reports, bar garphs, cash flow and many more items so that a customer may see it and fell satisfied for all their question they have.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
@@ -172,10 +207,10 @@
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/seo_02.png" alt="" class="img-fluid img-rounded">
+								<img src="https://i.pinimg.com/originals/1b/9c/5e/1b9c5edf895e27b842ce49c73d48a385.gif" alt="" class="img-fluid img-rounded">
 							</div>
-							<h3>Tips</h3>
-							<p>We provide big investors ideas, emotions, trading pyschology,etc so that a user can read and feel relaxed for applying in a stock an organisation or company.</p>
+							<h3>TIPS</h3>
+							<p>We provide big investors ideas, emotions, trading pyschology and more so that a user can read and feel relaxed for applying in a stock in an organisation or company.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 					
@@ -191,7 +226,7 @@
         <div class="container-fluid">
 			<div class="container">
 				<div class="section-title text-center">
-					<h3>Our Talents</h3>
+					<h3>OUR TALENTS</h3>
 					<p class="lead"></p>
 				</div><!-- end title -->
 			</div>
@@ -200,9 +235,9 @@
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/cup.png" alt="" class="img-fluid img-rounded">
+								<img src="https://i.pinimg.com/originals/75/d3/bd/75d3bd6c2855cea6bd12af66cc37719b.gif" alt="" class="img-fluid img-rounded">
 							</div>
-							<h3>Award-winning platform</h3>
+							<h3>AWARD WINNING PLATFORM</h3>
 							<p>Award-winning software recognized by the industry's most respected experts.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
@@ -210,20 +245,20 @@
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/lines.png" alt="" class="img-fluid img-rounded">
+								<img src="https://cdn.dribbble.com/users/1350622/screenshots/4408287/8.gif" alt="" class="img-fluid img-rounded">
 							</div>
-							<h3>Customizable interface</h3>
-							<p>Customize the platform to make it fit better to your needs — from chart type to color theme, reports.</p>
+							<h3>CUSTOMISED INTERFACE</h3>
+							<p>Customize the platform to make it fit better to your needs — from chart type to color theme & reports.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 					
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/cash.png" alt="" class="img-fluid img-rounded">
+								<img src="https://i.pinimg.com/originals/cd/6e/96/cd6e965e0a5769560a5c88d471fe0cb1.gif" alt="" class="img-fluid img-rounded">
 							</div>
-							<h3>Authentic money investment</h3>
-							<p>Invest your money in an good company or organizaton.</p>
+							<h3>AUTHENTIC MONEY INVESTMENT</h3>
+							<p>Invest your money in a good company or organizaton.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 
@@ -232,7 +267,7 @@
 							<div class="post-media wow fadeIn">
 								<img src="images/support.png" alt="" class="img-fluid img-rounded">
 							</div>
-							<h3>Support</h3>
+							<h3>SUPPORT</h3>
 							<p>A team of professionals are always here to support you.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
@@ -248,7 +283,7 @@
     <div id="testimonials" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Happy Clients</h3>
+                <h3>HAPPY CLIENTS</h3>
                 <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Landigoo website template!</p>
             </div><!-- end title -->
 
@@ -257,8 +292,8 @@
                     <div class="testi-carousel owl-carousel owl-theme">
                         <div class="testimonial clearfix">
 							<div class="testi-meta">
-                                <img src="images/testi_01.png" alt="" class="img-fluid alignleft">
-                                <h4>James Fernando <small>- Manager of Racer</small></h4>
+                                <img src="https://cdn.goodgallery.com/274bb1d3-b411-4b2a-bf11-30e8078d1335/s/0800/2fkmh0ua/eras-medical-residency-application-photo.jpg" alt="" class="img-fluid alignleft">
+                                <h4>JENNIFER THOMAS <small>- Manager of Racer</small></h4>
                             </div>
 							<!-- end testi-meta -->
                             <div class="desc">
@@ -270,8 +305,8 @@
 
                         <div class="testimonial clearfix">
 							<div class="testi-meta">
-                                <img src="images/testi_02.png" alt="" class="img-fluid alignleft">
-                                <h4>Jacques Philips <small>- Designer</small></h4>
+                                <img src="https://www.mebaz.com/assets/images/men-inn-box-sm-left1.jpg" alt="" class="img-fluid alignleft">
+                                <h4>ARJUN KUMAR <small>- Designer</small></h4>
                             </div>
                             <!-- end testi-meta -->
                             <div class="desc">
@@ -283,8 +318,8 @@
 
                         <div class="testimonial clearfix">
 							<div class="testi-meta">
-                                <img src="images/testi_03.png" alt="" class="img-fluid alignleft">
-                                <h4>Venanda Mercy <small>- Newyork City</small></h4>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4sPbnCLjiSvzJHSV6AUfVNCknTh71-NAzrDj1T-yyj1RhOETFBQpY5_m2JPJ5xIz1XLw&usqp=CAU" alt="" class="img-fluid alignleft">
+                                <h4>VANDANA TAKUR <small>- Newyork City</small></h4>
                             </div>
                             <!-- end testi-meta -->
                             <div class="desc">

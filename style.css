@@ -436,14 +436,14 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .top-navbar .bg-light{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0 0 12px 0 rgba(0,0,0,.12);
 }
 
 .top-navbar .navbar-expand-lg .navbar-nav{
 	background: #2f10a1;
-	border-radius: 5px;
+	border-radius: 2px;
 }
 
 
